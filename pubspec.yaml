@@ -1,0 +1,42 @@
+name: tulai
+description: Offline-first multilingual learning application.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  supabase_flutter: ^2.5.6
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+  uuid: ^4.4.0
+  connectivity_plus: ^6.0.3
+  flutter_markdown: ^0.7.3
+  flutter_tts: ^4.2.5
+  markdown: ^7.3.0
+  url_launcher: ^6.3.0
+  google_mlkit_translation: ^0.15.1
+  flutter_dotenv: ^6.0.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.4
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/content/
+    - assets/images/
+    - .env
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/tulai_logo.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/images/tulai_logo.png"
+

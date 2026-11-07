@@ -1,0 +1,43 @@
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+build/
+coverage/
+.env
+.env.*
+!.env.example
+android/.gradle/
+android/local.properties
+android/key.properties
+android/app/*.jks
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Runner/GeneratedPluginRegistrant.*
+macos/Flutter/GeneratedPluginRegistrant.swift
+linux/flutter/ephemeral/
+windows/flutter/ephemeral/
+.DS_Store
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Flutter generated files
+.dart_tool/
+build/
+.flutter-plugins-dependencies
+
+# IDE generated files
+.idea/
+*.iml
+
+# Android generated files
+android/.kotlin/
+android/local.properties
+android/key.properties
+
+# Supabase local files
+supabase/.temp/
